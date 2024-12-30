@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Piedra&family=Rubik+Dirt&family=Slackey&family=Walter+Turncoat&display=swap');
+
+
+body {
+  background-color: rgba(0, 0, 0, 0.897);
+
+}
+
+
+/* Titulo da aba mobile*/
+.titulom {
+  color: rgb(232, 212, 212);
+  text-align: center;
+  font-family: "Slackey", serif;
+}
+
+h2 {
+  color: rgb(255, 254, 253);
+  font-family: "Aeria Libvre" f, seri;
+}
+
+/* botão de voltar para pagina principal*/
+.botao {
+  margin-left: 25%;
+  background: yellow;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Aeria Libvre" f, seri;
+  font-weight: bold;
+  border: 2px solid orange;
+  border-radius: 5px;
+  position: relative;
+  top: 550px;
+  left: 350px;
+}
+
+.botao:hover {
+  background: gray;
+  color: #fff;
+}
+
+/* Menu de interação inicial*/
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  /* Centraliza os itens */
+  background-color: #242527;
+  border-radius: 5px;
+  padding: 0;
+  /* Adiciona um pequeno preenchimento ao redor do menu */
+  width: 100%;
+  /* Faz o menu ocupar toda a largura da página */
+}
+
+.menu li {
+  margin-right: 0;
+  /* Remove o espaçamento entre os itens */
+}
+
+.menu a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff6f6;
+  padding: 20px;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+  margin-right: 30px;
+  /* Menor espaçamento entre os itens */
+}
+
+
+/* Estilo quando o mouse passa sobre o link */
+.menu a:hover {
+  color: #fffdfd;
+  /* Cor do texto ao passar o mouse */
+  background-color: #220f49;
+  /* Cor de fundo ao passar o mouse */
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/*Titulo inicial*/
+.titulo {
+  background: none;
+  padding: 20px;
+  text-align: center;
+  color: hsla(0, 100%, 98%, 0.794);
+  font-family: "Piedra", serif
+}
+
+/* Contêiner da figura */
+.image-container {
+  position: relative;
+  width: 190px;
+  display: inline-block;
+
+}
+
+.imagem {
+  width: 100%;
+  /* Faz a imagem ocupar 100% da largura do contêiner */
+  height: auto;
+  transition: transform 0.3s ease;
+  height: 250px;
+}
+
+/* Estilo do figcaption */
+figcaption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Fundo semitransparente */
+  padding: 5px;
+  transition: opacity 0.3s ease;
+  /* Suaviza a transição de opacidade */
+  opacity: 0;
+  /* Começa invisível */
+  visibility: hidden;
+  /* Começa invisível */
+}
+
+/* Efeito hover */
+.image-container:hover .imagem {
+  transform: scale(1.1);
+  /* Aumenta a imagem */
+}
+
+.image-container:hover figcaption {
+  opacity: 1;
+  /* Torna a legenda visível */
+  visibility: visible;
+  /* Garante que a legenda se torne visível */
+}
+
+
+.botao-download {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+}
+
+.botao-download:hover {
+  background-color: #45a049;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ffffff;
+  width: 230px;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #ffffff;
+}
+
+#searchInput {
+  padding: 7px;
+  border: none;
+  width: 100%;
+  outline: none;
+
+}
